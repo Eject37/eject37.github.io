@@ -271,14 +271,14 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Шрифт */
-/* :root:lang(bg),
+:root:lang(bg),
 :root:lang(el),
 :root:lang(ru),
 :root:lang(uk) {
     --font-primary: "Montserrat", Arial, sans-serif;
     --font-display: "Montserrat", Arial, sans-serif;
     --font-headline: "Montserrat", Arial, sans-serif;
-} */
+}
 
 /* Подсказки при наведении */
 .tooltipPrimary_e5c00d,
