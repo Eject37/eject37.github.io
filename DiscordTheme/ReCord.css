@@ -271,14 +271,14 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Шрифт */
-:root:lang(bg),
+/* :root:lang(bg),
 :root:lang(el),
 :root:lang(ru),
 :root:lang(uk) {
     --font-primary: "Montserrat", Arial, sans-serif;
     --font-display: "Montserrat", Arial, sans-serif;
     --font-headline: "Montserrat", Arial, sans-serif;
-}
+} */
 
 /* Подсказки при наведении */
 .tooltipPrimary_e5c00d,
@@ -334,6 +334,11 @@ button[aria-label="Прекратить просмотр"],
     --red-530: var(--brand-600);
     /* Задний цвет сообщения в модальном окне удаления сообщений */
     --primary-600: var(--additional-color);
+
+    /* Шрифт */
+    --font-primary: "Montserrat", Arial, sans-serif;
+    --font-display: "Montserrat", Arial, sans-serif;
+    --font-headline: "Montserrat", Arial, sans-serif;
 }
 
 /* Сверху цвет надписи Discord */
