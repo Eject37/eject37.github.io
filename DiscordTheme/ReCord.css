@@ -339,6 +339,9 @@ button[aria-label="Прекратить просмотр"],
     --font-primary: "Montserrat", Arial, sans-serif;
     --font-display: "Montserrat", Arial, sans-serif;
     --font-headline: "Montserrat", Arial, sans-serif;
+
+    /* Значок голосовой связи (Wi-Fi) */
+    --status-positive: var(--text-positive);
 }
 
 /* Сверху цвет надписи Discord */
