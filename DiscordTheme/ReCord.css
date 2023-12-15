@@ -498,15 +498,15 @@ svg div button[aria-label="Увімкнути мікрофон"] svg {
     color: var(--primary-860) !important;
 }
 
-svg div > button[aria-label="Откл. микрофон"],
+svg div > button[aria-label="Заглушить"],
 svg div > button[aria-label="Вимкнути мікрофон"] {
     background: var(--primary-630) !important;
 }
-svg div > button[aria-label="Откл. микрофон"]:hover,
+svg div > button[aria-label="Заглушить"]:hover,
 svg div > button[aria-label="Вимкнути мікрофон"]:hover {
     background: var(--primary-700) !important;
 }
-svg div button[aria-label="Откл. микрофон"] svg,
+svg div button[aria-label="Заглушить"] svg,
 svg div button[aria-label="Вимкнути мікрофон"] svg {
     color: var(--white-500) !important;
 }
