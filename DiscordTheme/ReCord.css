@@ -342,6 +342,9 @@ button[aria-label="Прекратить просмотр"],
 
     /* Значок голосовой связи (Wi-Fi) */
     --status-positive: var(--text-positive);
+
+    /* Brand tooltip (ping) */
+    --green-360: #5289b8;
 }
 
 /* Сверху цвет надписи Discord */
