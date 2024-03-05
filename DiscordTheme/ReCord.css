@@ -236,8 +236,8 @@ button[aria-label="Прекратить просмотр"],
 /* Меню настроек */
 .sidebarRegionScroller__1fa7e,
 .contentRegionShownSidebar__610ed {
-    /*background: radial-gradient(black, #010918c4) !important;*/
-    background: var(--main-color) !important;
+    background: radial-gradient(rgb(26, 32, 38), #12151b) !important;
+    /* background: var(--main-color) !important; */
 }
 
 .container__871ba.checked__6bdb0,
@@ -459,15 +459,6 @@ html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
     border-radius: 10px;
 }
 
-@keyframes show {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 /* Контекстное меню выбора региона звонка */
 .quickSelectPopout_c0cf80 {
     border-radius: 10px;
@@ -526,3 +517,32 @@ svg div button[aria-label="Вимкнути мікрофон"] svg {
     background: var(--primary-630) !important;
 }
 /* Возвращение микрофона как до обновления */
+
+/* Анимация прокрутки значка дискорда */
+.tutorialContainer__890ea .selected_ad2d13 .childWrapper__01b9c svg {
+    animation: spin 0.8s 0.2s ease;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-20deg);
+    }
+    70% {
+        transform: rotate(380deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
