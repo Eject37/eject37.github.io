@@ -484,24 +484,29 @@ html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
 
 /* Возвращение микрофона как до обновления */
 svg div button[aria-label="Вкл. микрофон"],
-svg div button[aria-label="Увімкнути мікрофон"] {
+svg div button[aria-label="Увімкнути мікрофон"],
+svg div button[aria-label="Turn On Microphone"] {
     background: var(--white-500) !important;
 }
 svg div button[aria-label="Вкл. микрофон"] svg,
-svg div button[aria-label="Увімкнути мікрофон"] svg {
+svg div button[aria-label="Увімкнути мікрофон"] svg,
+svg div button[aria-label="Turn On Microphone"] svg {
     color: var(--primary-860) !important;
 }
 
 svg div > button[aria-label="Заглушить"],
-svg div > button[aria-label="Вимкнути мікрофон"] {
+svg div > button[aria-label="Вимкнути мікрофон"],
+svg div > button[aria-label="Turn Off Microphone"] {
     background: var(--primary-630) !important;
 }
 svg div > button[aria-label="Заглушить"]:hover,
-svg div > button[aria-label="Вимкнути мікрофон"]:hover {
+svg div > button[aria-label="Вимкнути мікрофон"]:hover,
+svg div > button[aria-label="Turn Off Microphone"]:hover {
     background: var(--primary-700) !important;
 }
 svg div button[aria-label="Заглушить"] svg,
-svg div button[aria-label="Вимкнути мікрофон"] svg {
+svg div button[aria-label="Вимкнути мікрофон"] svg,
+svg div button[aria-label="Turn Off Microphone"] svg {
     color: var(--white-500) !important;
 }
 
