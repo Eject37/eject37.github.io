@@ -19,7 +19,7 @@ button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
 div:has(> button[aria-label="Открыть звуковую панель"]),
-div:has(> span[class*="disabledButtonWrapper__69c70"]),
+div:has(> span[class*="disabledButtonWrapper_b04230"]),
 [role="button"][aria-label="Начать видеозвонок"],
 button[aria-label="Отправить подарок"],
 div:has(> button[aria-label="Открыть меню GIF"]),
@@ -39,36 +39,36 @@ div:has(> button[aria-label="Відкрити програму вибору ст
 }
 
 /* hide nitro and shop tabs in DMs */
-.channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"],
-.channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/store"] {
+.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/shop"],
+.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/store"] {
     display: none;
 }
 
-.actionButtons_b58cbb > button[aria-label="Продемонстрируйте свой экран"],
-.actionButtons_b58cbb > button[aria-label="Почати демонстрацію екрану"] {
+.actionButtons__85e3c > button[aria-label="Продемонстрируйте свой экран"],
+.actionButtons__85e3c > button[aria-label="Почати демонстрацію екрану"] {
     background: var(--button-color);
     border-radius: 10px;
 }
 
-.buttonContainer__66ac7 {
+.buttonContainer_c84998 {
     display: none;
 }
 
-.controlButton_ab2899.fauxDisabled_e7913a.contextMenuContainer_fc4df6 {
+.controlButton__863c7.fauxDisabled__50515.contextMenuContainer__7fb37 {
     display: none;
 }
 
-.scroller__3d071 > .listItem_fa7b36 > .listItemWrapper__1f93b {
+.scroller_de945b > .listItem__48528 > .listItemWrapper__3d465 {
     display: none;
 }
 
-.children__32014 > .akaBadge__7df41,
-.children__32014 > .nicknames__7447d,
-.children__32014 > .divider_c09b64 {
+.children_cde9af > .akaBadge__27cd4,
+.children_cde9af > .nicknames__12efb,
+.children_cde9af > .divider_bdb894 {
     display: none;
 }
 
-.withFrame__485f4 {
+.withFrame__5e49e {
     /* height: 22px; */
     /* margin-top: 0; */
     background-color: var(--main-color) !important;
@@ -80,9 +80,9 @@ div:has(> button[aria-label="Відкрити програму вибору ст
     padding-top: 3px;
 }*/
 
-.scroller__3d071,
+.scroller_de945b,
 .theme-dark .panel_bd8c76,
-.chatContent__5dca8 {
+.chatContent_f087cb {
     background: var(--main-color);
 }
 
@@ -90,38 +90,38 @@ div:has(> button[aria-label="Відкрити програму вибору ст
     background: var(--voice-color);
 }
 
-.container_ca50b9,
-.container_d667ff {
+.container_debb33,
+.container_e1958d {
     background: var(--main-color) !important;
 }
 
-.scroller__4b984,
-.searchBar_e4ea2a {
+.scroller__89969,
+.searchBar__621ec {
     background: var(--additional-color) !important;
 }
 
-.searchBarComponent__22760,
-.searchBar_e0c60b {
+.searchBarComponent__8f95f,
+.searchBar__5a20a {
     background: var(--main-color) !important;
 }
 
 [data-list-id="chat-messages"],
-.form__13a2c:before,
-.form__13a2c {
+.form_d8a4a1:before,
+.form_d8a4a1 {
     background: var(--main-color) !important;
 }
 
-.placeholder_e68c63,
-.scrollableContainer__33e06 {
+.placeholder_dec8c7,
+.scrollableContainer_ff917f {
     background: var(--additional-color);
 }
 
 .themed_b152d4,
-.children__32014:after {
+.children_cde9af:after {
     background: var(--additional-color) !important;
 }
 
-.members__9f47b {
+.members__573eb {
     background: var(--additional-color);
 }
 
@@ -139,63 +139,63 @@ div:has(> button[aria-label="Відкрити програму вибору ст
     background-color: rgb(157, 157, 160) !important;
 }
 
-.auto_a48086::-webkit-scrollbar-track {
+.auto_a3c0bd::-webkit-scrollbar-track {
     background-color: #151b21;
 }
 
-.auto_a48086::-webkit-scrollbar-thumb,
-.auto_a48086::-webkit-scrollbar-track {
+.auto_a3c0bd::-webkit-scrollbar-thumb,
+.auto_a3c0bd::-webkit-scrollbar-track {
     border: 4px;
 }
 
 /* Скролл-бар КОНЕЦ */
 
-.selected_d94cf9 {
+.selected__37292 {
     background: #323b46;
 }
 
 /* Список сообщений, серверов, пользователей при наведении */
-.interactive__776ee:hover:not(.interactiveSelected_ec846b),
-.wrapper__7bcde:hover .wrapper__7bcde,
-.clickable__17ccb:hover .layout_bb8e67,
-.button_d553e5:hover {
+.interactive__0786a:hover:not(.interactiveSelected__689f0),
+.wrapper__612a5:hover .wrapper__612a5,
+.clickable__03a29:hover .layout_bb8e67,
+.button_d4bf9b:hover {
     background: #252c35;
     transition: 0.3s;
 }
 
 /* Выбранные Список сообщений, серверов, пользователей */
-.modeSelected__487d6 .wrapper__7bcde,
-.button_d553e5.selected__63428 {
+.modeSelected__473f1 .wrapper__612a5,
+.button_d4bf9b.selected__74fee {
     background: #323b46 !important;
 }
 
 /* Кнопка на главный экран */
-/* .childWrapper__01b9c {
+/* .childWrapper_a6ce15 {
     background: #3c4d62 !important;
 } */
 
-.theme-dark .container__590e2,
-.container_b2ce9c {
+.theme-dark .container__7e23c,
+.container_f79ab4 {
     background: var(--additional-color);
 }
 
 /* Если тебя тегнули */
-.mentioned__58017 {
+.mentioned_fa6fd2 {
     background: #7789ab2e !important;
 }
 
-.mentioned__58017:before {
+.mentioned_fa6fd2:before {
     background-color: #4b7c97;
 }
 
 /* Кнопка В эфире */
-/*.live_b195a5.liveLarge__9308a {
+/*.live_b195a5.liveLarge_b5ceaa {
 	background: var(--button-color);
 }*/
 
 /* Кнопка выключения просмотра демонстрации экрана и кнопка Отключиться */
 button[aria-label="Прекратить просмотр"],
-.colorable_c84c4c.red_a51ba8 {
+.colorable__4f530.red__45e65 {
     background: var(--button-color) !important;
 }
 
@@ -205,42 +205,42 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Загружаемые файлы и разные фоны в сообщениях */
-.attachment_f3cf2c.newMosaicStyle__235c9,
-.newMosaicStyle__8d3be .codeView__8b1ff,
-.newMosaicStyle__8d3be .footer__06f4b,
-.newMosaicStyle__8d3be .textContainer__709ff,
-.grid_c7c4e6,
-.wrapper_c727b6 {
+.attachment__06ca3.newMosaicStyle_b4aa24,
+.newMosaicStyle_ed53d8 .codeView_e4dd18,
+.newMosaicStyle_ed53d8 .footer__90194,
+.newMosaicStyle_ed53d8 .textContainer__65f57,
+.grid__35551,
+.wrapper__4e6b6 {
     background: var(--button-color);
 }
 
 /* Кнопка + (зайти на сервер) */
-.circleIcon__428dd > path {
+.circleIcon_b62ef0 > path {
     fill: var(--blue-color-text);
 }
 
 /* Кнопка + (зайти на сервер) */
-.circleIconButton_d8df29 {
+.circleIconButton__05cf2 {
     background: var(--button-color);
 }
 
 /* Отображение цвета разговора */
-.border_d9a17b.speaking__9b95a,
-.border_e782de.speaking__1dd69,
+.border_d9a17b.speaking_c28527,
+.border_e782de.speaking_b20122,
 .speaking-3K28iH,
-.speaking_c1b30e,
-.avatarSpeaking__61fb1 {
+.speaking__33297,
+.avatarSpeaking__747a1 {
     box-shadow: inset 0 0 10px rgb(140, 140, 140);
 }
 
 /* Меню настроек */
-.sidebarRegionScroller__1fa7e,
-.contentRegionShownSidebar__610ed {
+.sidebarRegionScroller__8113e,
+.contentRegionShownSidebar__9d1b9 {
     background: radial-gradient(rgb(26, 32, 38), #12151b) !important;
     /* background: var(--main-color) !important; */
 }
 
-.container__871ba.checked__6bdb0,
+.container__2ed72.checked__36fdc,
 .bd-switch input:checked + .bd-switch-body {
     background-color: var(--checkbox-cheked-color) !important;
 }
@@ -251,7 +251,7 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Зеленый значок показывающий нахождение в голосовом канале */
-.iconBadge_fdf33a {
+.iconBadge__19638 {
     background-color: rgb(68, 74, 88) !important;
 }
 
@@ -261,12 +261,12 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Профили */
-.overlayBackground__86b78 {
+.overlayBackground__2666e {
     background-color: var(--main-color);
 }
 
-.userProfileInner__8065b:before,
-.userProfileInnerThemedNonPremium__3d0a6 {
+.userProfileInner__61cc1:before,
+.userProfileInnerThemedNonPremium_ed9022 {
     background: var(--additional-color);
 }
 
@@ -281,8 +281,8 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Подсказки при наведении */
-.tooltipPrimary_e5c00d,
-.tooltipGrey_a35fcf {
+.tooltipPrimary__51b23,
+.tooltipGrey__3108e {
     background: var(--button-color) !important;
     border-radius: 10px;
 }
@@ -348,16 +348,16 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Сверху цвет надписи Discord */
-.wordmarkWindows__05c46 {
+.wordmarkWindows_ffbc5e {
     color: var(--text-link);
 }
 
 /* Цвет контекстного меню выбора региона звонка при наведении */
-.theme-dark .quickSelectPopoutOption__39224:hover {
+.theme-dark .quickSelectPopoutOption_b852b1:hover {
     background-color: var(--hover-color);
 }
 
-.quickSelectPopoutOption__39224:focus {
+.quickSelectPopoutOption_b852b1:focus {
     background-color: transparent;
 }
 
@@ -373,19 +373,19 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Зеленый индикатор демки рабочего стола */
-.icon_c1b424 {
+.icon__493c1 {
     background-color: var(--hover-color) !important;
 }
 
 /* Нижняя панель где ава, статус, муты микро */
-.container_ca50b9,
-.container_d667ff,
+.container_debb33,
+.container_e1958d,
 .panel_bd8c76 {
     background-color: var(--main-color) !important;
 }
 
 /* Анимация при наведении на каналы на серверах */
-.link__95dc0 {
+.link_ddbb36 {
     transition: background-color 0.4s;
 }
 
@@ -441,90 +441,90 @@ html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
 }
 
 /* Закругленная панель где писать сообщение */
-.scrollableContainer__33e06 {
+.scrollableContainer_ff917f {
     border: 1px solid var(--background-modifier-accent);
     border-radius: 20px;
     /* box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45); */
 }
 
 /* Контекстное меню */
-.menu_dc52c6 {
+.menu__088f7 {
     border-radius: 20px;
     border: 1px solid var(--background-modifier-accent);
     animation: 0.2s show ease;
 }
 
 /* Кнопки в контекстном меню */
-.colorDefault__0b482.focused__27621 {
+.colorDefault_e361cf.focused_dcafb9 {
     border-radius: 10px;
 }
 
 /* Контекстное меню выбора региона звонка */
-.quickSelectPopout_c0cf80 {
+.quickSelectPopout__56a98 {
     border-radius: 10px;
     /* border: 1px solid var(--background-modifier-accent); */
-    /* .regionSelectName__7c81f {
+    /* .regionSelectName_e97b48 {
     text-align: right;
 	} */
 }
 
 /* Панель действий при наведении на сообщения */
-.buttonsInner_bca8fa {
+.buttonsInner_a9dfff {
     border: 1px solid var(--background-modifier-accent);
     border-radius: 10px;
 }
 
 /* Анимации при переключении табов разных */
-.messagesWrapper_ea2b0b,
-.container__590e2,
-.content__23cab,
-.peopleColumn__51df3 {
+.messagesWrapper_add28b,
+.container__7e23c,
+.content__690c5,
+.peopleColumn__0c784 {
     animation: show 0.3s ease;
 }
 
 /* Возвращение микрофона как до обновления */
-svg div button[aria-label="Вкл. микрофон"],
+svg div button[aria-label="Включить микрофон"],
 svg div button[aria-label="Увімкнути мікрофон"],
 svg div button[aria-label="Turn On Microphone"] {
     background: var(--white-500) !important;
 }
-svg div button[aria-label="Вкл. микрофон"] svg,
+svg div button[aria-label="Включить микрофон"] svg,
 svg div button[aria-label="Увімкнути мікрофон"] svg,
 svg div button[aria-label="Turn On Microphone"] svg {
     color: var(--primary-860) !important;
 }
 
-svg div > button[aria-label="Заглушить"],
+svg div > button[aria-label="Отключить микрофон"],
 svg div > button[aria-label="Вимкнути мікрофон"],
 svg div > button[aria-label="Turn Off Microphone"] {
     background: var(--primary-630) !important;
 }
-svg div > button[aria-label="Заглушить"]:hover,
+svg div > button[aria-label="Отключить микрофон"]:hover,
 svg div > button[aria-label="Вимкнути мікрофон"]:hover,
 svg div > button[aria-label="Turn Off Microphone"]:hover {
     background: var(--primary-700) !important;
 }
-svg div button[aria-label="Заглушить"] svg,
+svg div button[aria-label="Отключить микрофон"] svg,
 svg div button[aria-label="Вимкнути мікрофон"] svg,
 svg div button[aria-label="Turn Off Microphone"] svg {
     color: var(--white-500) !important;
 }
 
-[role="button"][aria-label="Другие настройки"][class*="primaryDark__6b700"],
-[role="button"][aria-label="Додаткові параметри"][class*="primaryDark__6b700"] {
+[role="button"][aria-label="Другие настройки"][class*="primaryDark_ec74a7"],
+[role="button"][aria-label="Додаткові параметри"][class*="primaryDark_ec74a7"] {
     color: var(--primary-860) !important;
     background: var(--white-500) !important;
 }
 
-[role="button"][aria-label="Другие настройки"][class*="white__10e89"],
-[role="button"][aria-label="Додаткові параметри"][class*="white__10e89"] {
+[role="button"][aria-label="Другие настройки"][class*="white_ce1c7b"],
+[role="button"][aria-label="Додаткові параметри"][class*="white_ce1c7b"] {
     color: var(--white-500) !important;
     background: var(--primary-630) !important;
 }
 /* Возвращение микрофона как до обновления */
 
 /* Анимация прокрутки значка дискорда */
-.tutorialContainer__890ea .selected_ad2d13 .childWrapper__01b9c svg {
+.tutorialContainer_b06ae6 .selected__501f5 .childWrapper_a6ce15 svg {
     animation: spin 0.8s 0.2s ease;
 }
 
