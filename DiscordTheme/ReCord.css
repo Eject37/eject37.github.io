@@ -7,9 +7,32 @@
     --button-color: linear-gradient(90deg, #263341, #273039);
     --blue-color-text: #7ecff5;
     --hover-color: #2a3742;
+    --hover-additional-color: #252c35;
     --link-color: #7daae9;
     --checkbox-cheked-color: #23588b;
+
+    --tagged-message-background: #7789ab2e;
+    --tagged-message-left-border: #4b7c97;
+    --important-messages-color: #3d78c4;
+    --ping-tooltip: #5289b8;
 }
+
+/*:root {
+    --main-color: rgb(22, 24, 26);
+    --additional-color: rgb(27, 30, 33);
+    --voice-color: #131414;
+    --button-color: linear-gradient(90deg, #2f3946, #23272b);
+    --blue-color-text: #7ecff5;
+    --hover-color: #2e3337;
+    --hover-additional-color: #2d3135;
+    --link-color: #7daae9;
+    --checkbox-cheked-color: #606c77;
+
+    --tagged-message-background: #656c782e;
+    --tagged-message-left-border: #4b7c97;
+    --important-messages-color: #6494d1;
+    --ping-tooltip: #5289b8;
+}*/
 
 button[aria-label="Начать активность"],
 button[aria-label="Камера недоступна"],
@@ -151,7 +174,7 @@ div:has(> button[aria-label="Відкрити програму вибору ст
 /* Скролл-бар КОНЕЦ */
 
 .selected__37292 {
-    background: #323b46;
+    background: var(--hover-color);
 }
 
 /* Список сообщений, серверов, пользователей при наведении */
@@ -159,14 +182,14 @@ div:has(> button[aria-label="Відкрити програму вибору ст
 .wrapper__612a5:hover .wrapper__612a5,
 .clickable__03a29:hover .layout_bb8e67,
 .button_d4bf9b:hover {
-    background: #252c35;
+    background: var(--hover-additional-color);
     transition: 0.3s;
 }
 
 /* Выбранные Список сообщений, серверов, пользователей */
 .modeSelected__473f1 .wrapper__612a5,
 .button_d4bf9b.selected__74fee {
-    background: #323b46 !important;
+    background: var(--hover-additional-color) !important;
 }
 
 /* Кнопка на главный экран */
@@ -181,11 +204,12 @@ div:has(> button[aria-label="Відкрити програму вибору ст
 
 /* Если тебя тегнули */
 .mentioned_fa6fd2 {
-    background: #7789ab2e !important;
+    background: var(--tagged-message-background) !important;
 }
 
+/* Линия слева в сообщении в котором тебя упомянули */
 .mentioned_fa6fd2:before {
-    background-color: #4b7c97;
+    background-color: var(--tagged-message-left-border);
 }
 
 /* Кнопка В эфире */
@@ -201,7 +225,7 @@ button[aria-label="Прекратить просмотр"],
 
 /* Цвет строки поиска в вкладке Друзья */
 .inner__999f6 {
-    background: #323b46;
+    background: var(--additional-color);
 }
 
 /* Загружаемые файлы и разные фоны в сообщениях */
@@ -236,7 +260,7 @@ button[aria-label="Прекратить просмотр"],
 /* Меню настроек */
 .sidebarRegionScroller__8113e,
 .contentRegionShownSidebar__9d1b9 {
-    background: radial-gradient(rgb(26, 32, 38), #12151b) !important;
+    background: radial-gradient(var(--main-color), #131314) !important;
     /* background: var(--main-color) !important; */
 }
 
@@ -252,7 +276,7 @@ button[aria-label="Прекратить просмотр"],
 
 /* Зеленый значок показывающий нахождение в голосовом канале */
 .iconBadge__19638 {
-    background-color: rgb(68, 74, 88) !important;
+    background-color: var(--checkbox-cheked-color) !important;
 }
 
 /* Правая панель серверов */
@@ -280,6 +304,11 @@ button[aria-label="Прекратить просмотр"],
     --font-headline: "Montserrat", Arial, sans-serif;
 }
 
+/* Шрифт для плагина который показывает сколько времени я в голосовом канале */
+.text-xs-normal__46d75 span {
+    font-family: var(--font-primary) !important;
+}
+
 /* Подсказки при наведении */
 .tooltipPrimary__51b23,
 .tooltipGrey__3108e {
@@ -297,7 +326,7 @@ button[aria-label="Прекратить просмотр"],
     /* Цвет в закрепах и тд */
     --background-primary: var(--main-color);
     /* Цвет бейджей важных сообщений */
-    --status-danger: #3d78c4;
+    --status-danger: var(--important-messages-color);
     /* Цвет экрана выбора демки */
     --modal-background: var(--main-color);
     --modal-footer-background: var(--additional-color);
@@ -324,7 +353,7 @@ button[aria-label="Прекратить просмотр"],
     /* Выбранное разрешение и фпс демки */
     --brand-experiment: var(--hover-color);
     /* Серые цвета кнопок */
-    --button-secondary-background: #273039;
+    --button-secondary-background: var(--hover-additional-color);
     --button-secondary-background-hover: var(--hover-color);
     /* Цвет твоей панели активности */
     --background-secondary-alt: var(--additional-color);
@@ -344,7 +373,7 @@ button[aria-label="Прекратить просмотр"],
     --status-positive: var(--text-positive);
 
     /* Brand tooltip (ping) */
-    --green-360: #5289b8;
+    --green-360: var(--ping-tooltip);
 }
 
 /* Сверху цвет надписи Discord */
