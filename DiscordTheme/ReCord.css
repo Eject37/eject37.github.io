@@ -285,12 +285,12 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Профили */
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
     background-color: var(--main-color);
 }
 
-.userProfileInner__61cc1:before,
-.userProfileInnerThemedNonPremium_ed9022 {
+.userProfileInner__8ff35:before,
+.userProfileInnerThemedNonPremium_b64fb4 {
     background: var(--additional-color);
 }
 
@@ -556,6 +556,43 @@ svg div button[aria-label="Turn Off Microphone"] svg {
 .tutorialContainer_b06ae6 .selected__501f5 .childWrapper_a6ce15 svg {
     animation: spin 0.8s 0.2s ease;
 }
+
+/* Скрываем поле поиска но оставляем иконку*/
+.iconContainer__9f124,
+.icon__5c8c7 {
+    /* Make the Search icon match the styling of the other icons.*/
+    width: 21px;
+    height: 21px;
+    color: var(--interactive-normal);
+    transition: ease-in-out 0.3s;
+}
+
+.searchBar__5a20a {
+    /*Полностью скрываем строку поиска*/
+    width: 21px;
+    height: 24px;
+    padding: 0;
+    background: none;
+    transition: ease-in-out 0.3s !important;
+}
+
+.searchBar__5a20a:hover .iconContainer__9f124,
+.searchBar__5a20a:hover .icon__5c8c7,
+.focused__037a4 .icon__5c8c7,
+.focused__037a4 .iconContainer__9f124 {
+    /*Скрываем иконку поиска при наведении*/
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.searchBar__5a20a:hover,
+.focused__037a4 .searchBar__5a20a,
+.open_d3ab4e .searchBar__5a20a {
+    /*Показываем строку поиска при наведении на иконку*/
+    width: 175px;
+    background: var(--background-tertiary);
+}
+/* Скрываем поле поиска но оставляем иконку*/
 
 @keyframes show {
     0% {
