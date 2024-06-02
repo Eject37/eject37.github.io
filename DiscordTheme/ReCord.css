@@ -57,7 +57,8 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 [role="button"][aria-label="Розпочати відеовиклик"],
 button[aria-label="Надіслати подарунок"],
 div:has(> button[aria-label="Відкрити програму вибору GIF"]),
-div:has(> button[aria-label="Відкрити програму вибору стікерів"]) {
+div:has(> button[aria-label="Відкрити програму вибору стікерів"]),
+button[aria-label="Start An Activity"] {
     display: none;
 }
 
@@ -364,6 +365,13 @@ button[aria-label="Прекратить просмотр"],
     /* Задний цвет сообщения в модальном окне удаления сообщений */
     --primary-600: var(--additional-color);
 
+    /* Цвет чекбоксов (на экране выбора демки) */
+    --brand-400: var(--hover-additional-color);
+    /* Новые цвета кнопок разных (на экране выбора демки + логотип дискорда) */
+    --brand-500: var(--hover-additional-color);
+    /* Цвет кнопки Go Live при наведении */
+    --brand-560: var(--hover-color);
+
     /* Шрифт */
     --font-primary: "Montserrat", Arial, sans-serif;
     --font-display: "Montserrat", Arial, sans-serif;
@@ -593,6 +601,22 @@ svg div button[aria-label="Turn Off Microphone"] svg {
     background: var(--background-tertiary);
 }
 /* Скрываем поле поиска но оставляем иконку*/
+
+/* Иконка Скрыть список участников (сверху справа), задаем цвет как будто она не открыта*/
+.selected__1fc53 .icon_ae0b42 {
+    color: var(--interactive-normal) !important;
+}
+
+/* 3 кнопки в звонке смещаем немного влево*/
+/*.wrapper__4d4fe {
+    margin-right: 5%;
+}*/
+
+/* Поставленная реакция на сообщение */
+.reactionMe__0fffc {
+    background-color: var(--hover-color) !important;
+    border-color: var(--checkbox-cheked-color) !important;
+}
 
 @keyframes show {
     0% {
