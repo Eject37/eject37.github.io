@@ -1,21 +1,19 @@
 ::-webkit-scrollbar {
     border: 0px !important;
-    width: 9px !important;
+    width: 8px !important;
+}
+/* скроллбар в чате */
+.managedReactiveScroller__08e95::-webkit-scrollbar {
+    width: 12px !important;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(186, 186, 189) !important;
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgb(157, 157, 160) !important;
 }
 
-.auto_a3c0bd::-webkit-scrollbar-track {
-    background-color: #151b21;
-}
-
-.auto_a3c0bd::-webkit-scrollbar-thumb,
-.auto_a3c0bd::-webkit-scrollbar-track {
-    border: 4px;
+::-webkit-scrollbar-track {
+    background-color: transparent !important;
 }
