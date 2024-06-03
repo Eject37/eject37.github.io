@@ -1,0 +1,67 @@
+button[aria-label="Начать активность"],
+button[aria-label="Камера недоступна"],
+button[aria-label="Шумоподавление с помощью Krisp"],
+[role="button"][aria-label="Показать профиль пользователя (недоступно)"],
+[role="button"][aria-label="Показать профиль пользователя"],
+[role="button"][aria-label="Почта"],
+[role="button"][aria-label="Помощь"],
+div:has(> button[aria-label="Открыть звуковую панель"]),
+div:has(> span[class*="disabledButtonWrapper_b04230"]),
+[role="button"][aria-label="Начать видеозвонок"],
+button[aria-label="Отправить подарок"],
+div:has(> button[aria-label="Открыть меню GIF"]),
+div:has(> button[aria-label="Открыть меню выбора стикеров"]),
+button[aria-label="Розпочати дію"],
+button[aria-label="Поглинання шуму від Krisp"],
+[role="button"][aria-label="Показати профіль користувача (недоступно)"],
+[role="button"][aria-label="Показати профіль користувача"],
+[role="button"][aria-label="Вхідні"],
+[role="button"][aria-label="Довідка"],
+div:has(> button[aria-label="Відкрити звукову панель"]),
+[role="button"][aria-label="Розпочати відеовиклик"],
+button[aria-label="Надіслати подарунок"],
+div:has(> button[aria-label="Відкрити програму вибору GIF"]),
+div:has(> button[aria-label="Відкрити програму вибору стікерів"]),
+button[aria-label="Start An Activity"] {
+    display: none;
+}
+
+/* hide nitro and shop tabs in DMs */
+.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/shop"],
+.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/store"] {
+    display: none;
+}
+
+.buttonContainer_c84998 {
+    display: none;
+}
+
+.controlButton__863c7.fauxDisabled__50515.contextMenuContainer__7fb37 {
+    display: none;
+}
+
+.scroller_de945b > .listItem__48528 > .listItemWrapper__3d465 {
+    display: none;
+}
+
+.children_cde9af > .akaBadge__27cd4,
+.children_cde9af > .nicknames__12efb,
+.children_cde9af > .divider_bdb894 {
+    display: none;
+}
+
+.bd-switch-symbol,
+.slider__41d94 > svg {
+    display: none;
+}
+
+/* Реклама нитро при выборе качества демки */
+.gradientBackground-MytxDL {
+    display: none;
+}
+
+/* Иллюстрация при включении демки */
+.art-1TvEXv,
+.modalCloseButton-3jqiBN {
+    display: none;
+}
