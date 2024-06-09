@@ -400,6 +400,14 @@ button[aria-label="Прекратить просмотр"],
     border-color: var(--checkbox-cheked-color) !important;
 }
 
+/* Спойлеры в чатах */
+.spoilerContent__383f3.hidden_f44e41 {
+    --__current--spoiler-background-color: var(--hover-color);
+}
+.spoilerContent__383f3.hidden_f44e41:hover {
+    --__current--spoiler-background-color: var(--additional-color);
+}
+
 @keyframes show {
     0% {
         opacity: 0;
