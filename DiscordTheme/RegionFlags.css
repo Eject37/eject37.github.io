@@ -1,0 +1,72 @@
+/* 
+	Author: Eject
+	GitHub: https://github.com/Eject37
+	Discord Server: https://discord.gg/8baJSRxXSm
+	Discord: @eject37
+*/
+
+.regionSelectName_e97b48 {
+    width: 120px;
+}
+.quickSelectPopoutOption__36c0d {
+    padding-right: 2px;
+}
+.quickSelectPopoutOption__36c0d:focus {
+    background-color: transparent;
+}
+.quickSelectPopoutOption__36c0d.selected {
+    background-color: rgba(94, 97, 104, 0.335) !important;
+}
+.quickSelectPopoutOption__36c0d::before {
+    display: block;
+    height: 0;
+    width: 0;
+    scale: 0.048;
+    transform: translateY(-41px);
+    margin-right: 83%;
+    filter: saturate(0.9);
+}
+
+[data-list-item-id*="brazil"]::before {
+    content: url(https://cdn-icons-png.flaticon.com/512/330/330430.png);
+    transform: translateY(-65px);
+}
+
+[data-list-item-id*="hongkong"]::before {
+    content: url(https://cdn-icons-png.flaticon.com/512/330/330502.png);
+}
+
+[data-list-item-id*="india"]::before {
+    content: url(https://cdn-icons-png.flaticon.com/512/330/330439.png);
+    transform: translateY(-34px);
+}
+
+[data-list-item-id*="japan"]::before {
+    content: url(https://cdn-icons-png.flaticon.com/512/330/330622.png);
+}
+
+[data-list-item-id*="rotterdam"]::before {
+    content: url(https://cdn-icons-png.flaticon.com/512/330/330448.png);
+}
+
+[data-list-item-id*="russia"]::before {
+    content: url(https://discord.com/assets/2ee14b8c381654232623.png);
+    scale: 0.35;
+    transform: translateY(5px);
+}
+
+[data-list-item-id*="singapore"]::before {
+    content: url(https://cdn-icons-png.flaticon.com/512/330/330455.png);
+}
+
+[data-list-item-id*="southafrica"]::before {
+    content: url(https://cdn-icons-png.flaticon.com/512/330/330485.png);
+}
+
+[data-list-item-id*="sydney"]::before {
+    content: url(https://cdn-icons-png.flaticon.com/512/330/330451.png);
+}
+
+[data-list-item-id*="us-"]::before {
+    content: url(https://cdn-icons-png.flaticon.com/512/330/330459.png);
+}
