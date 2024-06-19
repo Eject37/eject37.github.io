@@ -5,8 +5,8 @@
 	Discord: @eject37
 */
 
-.iconContainer__9f124,
-.icon__5c8c7 {
+.iconContainer_effbe2,
+.icon_effbe2 {
     /* Make the Search icon match the styling of the other icons.*/
     width: 21px;
     height: 21px;
@@ -14,7 +14,7 @@
     transition: ease-in-out 0.3s;
 }
 
-.searchBar__5a20a {
+.searchBar_a46bef {
     /*Полностью скрываем строку поиска*/
     width: 21px;
     height: 24px;
@@ -23,24 +23,24 @@
     transition: ease-in-out 0.3s !important;
 }
 
-.searchBar__5a20a:hover .iconContainer__9f124,
-.searchBar__5a20a:hover .icon__5c8c7,
-.focused__037a4 .icon__5c8c7,
-.focused__037a4 .iconContainer__9f124 {
+.searchBar_a46bef:hover .iconContainer_effbe2,
+.searchBar_a46bef:hover .icon_effbe2,
+.focused_a46bef .icon_effbe2,
+.focused_a46bef .iconContainer_effbe2 {
     /*Скрываем иконку поиска при наведении*/
     opacity: 0;
     width: 0;
     height: 0;
 }
-.searchBar__5a20a:hover,
-.focused__037a4 .searchBar__5a20a,
-.open_d3ab4e .searchBar__5a20a {
+.searchBar_a46bef:hover,
+.focused_a46bef .searchBar_a46bef,
+.open_a46bef .searchBar_a46bef {
     /*Показываем строку поиска при наведении на иконку*/
     width: 175px;
     background: var(--background-tertiary);
 }
 
 /* Иконка Скрыть список участников (сверху справа), задаем цвет как будто она не открыта*/
-.selected__1fc53 .icon_ae0b42 {
+.selected_e44302 .icon_e44302 {
     color: var(--interactive-normal) !important;
 }
