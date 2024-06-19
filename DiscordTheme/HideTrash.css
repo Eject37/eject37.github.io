@@ -13,7 +13,7 @@ button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
 div:has(> button[aria-label="Открыть звуковую панель"]),
-div:has(> span[class*="disabledButtonWrapper_b04230"]),
+div:has(> span[class*="disabledButtonWrapper_dd4f85"]),
 [role="button"][aria-label="Начать видеозвонок"],
 button[aria-label="Отправить подарок"],
 div:has(> button[aria-label="Открыть меню GIF"]),
@@ -34,31 +34,31 @@ button[aria-label="Start An Activity"] {
 }
 
 /* hide nitro and shop tabs in DMs */
-.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/shop"],
-.channel__0aef5 .linkButton__9da2c > .link__3a950[href="/store"] {
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/shop"],
+.channel_c91bad .linkButton_c91bad > .link_c91bad[href="/store"] {
     display: none;
 }
 
-.buttonContainer_c84998 {
+.buttonContainer_b6e2f9 {
     display: none;
 }
 
-.controlButton__863c7.fauxDisabled__50515.contextMenuContainer__7fb37 {
+.controlButton_b6e2f9.fauxDisabled_f4a830.contextMenuContainer_ef18ee {
     display: none;
 }
 
-.scroller_de945b > .listItem__48528 > .listItemWrapper__3d465 {
+.scroller_fea3ef > .listItem_c96c45 > .listItemWrapper_dfb2f8 {
     display: none;
 }
 
-.children_cde9af > .akaBadge__27cd4,
-.children_cde9af > .nicknames__12efb,
-.children_cde9af > .divider_bdb894 {
+.children_e44302 > .akaBadge__27cd4,
+.children_e44302 > .nicknames__12efb,
+.children_e44302 > .divider_e44302 {
     display: none;
 }
 
 .bd-switch-symbol,
-.slider__41d94 > svg {
+.slider_cebd1c > svg {
     display: none;
 }
 
@@ -74,6 +74,6 @@ button[aria-label="Start An Activity"] {
 }
 
 /* 'В эфире' на демках */
-.indicators__95618 {
+.indicators_ba4b17 {
     display: none;
 }
