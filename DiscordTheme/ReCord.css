@@ -416,6 +416,10 @@ button[aria-label="Прекратить просмотр"],
     --__current--spoiler-background-color: var(--additional-color);
 }
 
+.container_a6d69a {
+    background: var(--main-color);
+}
+
 @keyframes show {
     0% {
         opacity: 0;
