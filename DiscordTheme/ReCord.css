@@ -366,7 +366,7 @@ button[aria-label="Прекратить просмотр"],
 }
 
 /* Анимация прокрутки значка дискорда */
-.tutorialContainer_f9623d .selected_dfb2f8 .childWrapper_a6ce15 svg {
+.tutorialContainer_f9623d .selected_dfb2f8 .childWrapper_f90abb svg {
     animation: spin 0.8s 0.2s ease;
 }
 
