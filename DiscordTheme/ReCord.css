@@ -420,6 +420,11 @@ button[aria-label="Прекратить просмотр"],
     background: var(--main-color);
 }
 
+/* Скрываем линию прокрутки на серверах */
+.scroller_fea3ef.none_c49869.scrollerBase_c49869::-webkit-scrollbar {
+    width: 0 !important;
+}
+
 @keyframes show {
     0% {
         opacity: 0;
