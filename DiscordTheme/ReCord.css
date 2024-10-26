@@ -425,6 +425,11 @@ button[aria-label="Прекратить просмотр"],
     width: 0 !important;
 }
 
+/* Фикс чата 26.10.2024 */
+.themedBackground_bdf0de {
+    background: var(--additional-color);
+}
+
 @keyframes show {
     0% {
         opacity: 0;
