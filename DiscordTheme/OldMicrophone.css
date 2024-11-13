@@ -5,30 +5,30 @@
 	Discord: @eject37
 */
 
-svg div button[aria-label="Включить микрофон"],
-svg div button[aria-label="Увімкнути мікрофон"],
-svg div button[aria-label="Turn On Microphone"] {
+div > button[aria-label="Включить микрофон"],
+div > button[aria-label="Увімкнути мікрофон"],
+div > button[aria-label="Turn On Microphone"] {
     background: var(--white-500) !important;
 }
-svg div button[aria-label="Включить микрофон"] svg,
-svg div button[aria-label="Увімкнути мікрофон"] svg,
-svg div button[aria-label="Turn On Microphone"] svg {
+div > button[aria-label="Включить микрофон"] svg,
+div > button[aria-label="Увімкнути мікрофон"] svg,
+div > button[aria-label="Turn On Microphone"] svg {
     color: var(--primary-860) !important;
 }
 
-svg div > button[aria-label="Отключить микрофон"],
-svg div > button[aria-label="Вимкнути мікрофон"],
-svg div > button[aria-label="Turn Off Microphone"] {
+div > button[aria-label="Отключить микрофон"],
+div > button[aria-label="Вимкнути мікрофон"],
+div > button[aria-label="Turn Off Microphone"] {
     background: var(--primary-630) !important;
 }
-svg div > button[aria-label="Отключить микрофон"]:hover,
-svg div > button[aria-label="Вимкнути мікрофон"]:hover,
-svg div > button[aria-label="Turn Off Microphone"]:hover {
+div > button[aria-label="Отключить микрофон"]:hover,
+div > button[aria-label="Вимкнути мікрофон"]:hover,
+div > button[aria-label="Turn Off Microphone"]:hover {
     background: var(--primary-700) !important;
 }
-svg div button[aria-label="Отключить микрофон"] svg,
-svg div button[aria-label="Вимкнути мікрофон"] svg,
-svg div button[aria-label="Turn Off Microphone"] svg {
+div > button[aria-label="Отключить микрофон"] svg,
+div > button[aria-label="Вимкнути мікрофон"] svg,
+div > button[aria-label="Turn Off Microphone"] svg {
     color: var(--white-500) !important;
 }
 
