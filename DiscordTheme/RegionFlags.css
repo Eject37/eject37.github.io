@@ -5,19 +5,19 @@
 	Discord: @eject37
 */
 
-.regionSelectName_ccb5ca {
+.regionSelectName__5621e {
     width: 120px;
 }
-.quickSelectPopoutOption_abbf45 {
+.quickSelectPopoutOption_ebaca5 {
     padding-right: 2px;
 }
-.quickSelectPopoutOption_abbf45:focus {
+.quickSelectPopoutOption_ebaca5:focus {
     background-color: transparent;
 }
-.quickSelectPopoutOption_abbf45.selected {
+.quickSelectPopoutOption_ebaca5.selected {
     background-color: rgba(94, 97, 104, 0.335) !important;
 }
-.quickSelectPopoutOption_abbf45::before {
+.quickSelectPopoutOption_ebaca5::before {
     display: block;
     height: 0;
     width: 0;
