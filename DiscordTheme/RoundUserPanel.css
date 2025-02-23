@@ -13,7 +13,7 @@
     border-radius: 20px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
 }
-[class^="sidebar_"] [class^="panels_"] [class^="container_"],
+[class^="sidebar_"] [class^="panels_"] [class^="content_"],
 [class^="sidebar_"] [class^="panels_"] [class^="panel_"] {
     background-color: transparent !important;
 }
