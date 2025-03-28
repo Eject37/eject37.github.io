@@ -22,6 +22,16 @@ document.querySelector('.program.contexteditor').addEventListener('mouseenter', 
 	duration: 0.5
 }));
 
+document.querySelector('.program.blue-folders').addEventListener('mouseenter', () => gsap.to(document.body, {
+	background: 'linear-gradient(278deg, rgb(12 44 67), rgb(38 47 61), rgb(37 58 61)) center center no-repeat fixed',
+	duration: 0.5
+}));
+
+document.querySelector('.program.discord-server').addEventListener('mouseenter', () => gsap.to(document.body, {
+	background: 'linear-gradient(278deg, rgb(20 22 50), rgb(29 37 49), rgb(26 33 42)) center center no-repeat fixed',
+	duration: 0.5
+}));
+
 document.querySelector('#author > a').addEventListener('mouseenter', () => gsap.to(document.body, {
 	background: 'linear-gradient(137deg, rgb(47 15 15), rgb(22 28 38), rgb(60 39 51)) center center no-repeat fixed',
 	duration: 0.5
