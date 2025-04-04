@@ -88,3 +88,8 @@ button[aria-label="Start An Activity"] {
 .channelAppLauncher_e6e74f {
     display: none;
 }
+
+/* На демке в полном экране справа снизу звук и доп настройки */
+.overlayButtonContainer__2f4f7 {
+    display: none;
+}
