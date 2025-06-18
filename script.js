@@ -61,7 +61,7 @@ document.querySelectorAll('.payment_number:not(.link, .usdt)').forEach(el => {
 });
 
 document.querySelector('.usdt').onclick = async el => {
-	let usdt = 'TMbP1XgqCqMpup61vZvdYtNpZC8VF4wmfs';
+	let usdt = 'TFFSuWcNdZNBm9nPxzZqCQ4MEcUde6nswV';
 
 	el.target.style.width = el.offsetWidth + 'px';
 	navigator.clipboard.writeText(usdt);
