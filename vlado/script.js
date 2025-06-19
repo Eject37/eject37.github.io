@@ -27,11 +27,6 @@ document.querySelector('.program.blue-folders').addEventListener('mouseenter', (
 	duration: 0.5
 }));
 
-document.querySelector('.program.discord-server').addEventListener('mouseenter', () => gsap.to(document.body, {
-	background: 'linear-gradient(278deg, rgb(20 22 50), rgb(29 37 49), rgb(26 33 42)) center center no-repeat fixed',
-	duration: 0.5
-}));
-
 document.querySelector('#author > a').addEventListener('mouseenter', () => gsap.to(document.body, {
 	background: 'linear-gradient(137deg, rgb(47 15 15), rgb(22 28 38), rgb(60 39 51)) center center no-repeat fixed',
 	duration: 0.5
