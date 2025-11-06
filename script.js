@@ -59,16 +59,3 @@ document.querySelectorAll('.payment_number:not(.link, .usdt)').forEach(el => {
 		el.style.pointerEvents = 'auto';
 	}
 });
-
-document.querySelector('.usdt').onclick = async el => {
-	let usdt = 'TFFSuWcNdZNBm9nPxzZqCQ4MEcUde6nswV';
-
-	el.target.style.width = el.offsetWidth + 'px';
-	navigator.clipboard.writeText(usdt);
-	el.target.classList.add('copy-clicked');
-	el.target.textContent = 'Скопировано';
-	await new Promise(resolve => setTimeout(resolve, 500));
-	el.target.classList.remove('copy-clicked');
-	el.target.textContent = 'USDT TRC20';
-	el.target.style.width = '';
-};
