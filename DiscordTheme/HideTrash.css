@@ -13,8 +13,8 @@ button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
 div:has(> button[aria-label="Открыть звуковую панель"]),
-div:not(.actionButtons_e131a9):has(> span[class*="disabledButtonWrapper_"]),
-span[class*="disabledButtonWrapper__201d5"],
+div:not(.e131a99484292a19-actionButtons):has(> span[class*="disabledButtonWrapper_"]),
+span[class*="_201d5e8a3c09670a-disabledButtonWrapper"],
 [role="button"][aria-label="Начать видеозвонок"],
 button[aria-label="Отправить подарок"],
 div:has(> button[aria-label="Открыть меню GIF"]),
@@ -35,31 +35,31 @@ button[aria-label="Start An Activity"] {
 }
 
 /* hide nitro and shop tabs in DMs */
-.channel__972a0 .linkButton__972a0 > .link__972a0[href="/shop"],
-.channel__972a0 .linkButton__972a0 > .link__972a0[href="/store"] {
+._972a0d22c8afa7f0-channel ._972a0d22c8afa7f0-linkButton > ._972a0d22c8afa7f0-link[href="/shop"],
+._972a0d22c8afa7f0-channel ._972a0d22c8afa7f0-linkButton > ._972a0d22c8afa7f0-link[href="/store"] {
     display: none;
 }
 
-.buttonContainer__1405b {
+._1405b3b8e8eb5fd0-buttonContainer {
     display: none;
 }
 
-.controlButton__1405b.fauxDisabled__666fa.contextMenuContainer_f1ceac {
+._1405b3b8e8eb5fd0-controlButton._666fac20ee9dfe96-fauxDisabled.contextMenuContainer_f1ceac {
     display: none;
 }
 
-.scroller_ef3116 > .listItem__650eb > .listItemWrapper_dfb2f8 {
+.ef3116c2da186559-scroller > ._650eb104245d257b-listItem > ._918165dab2b1e10b-listItemWrapper {
     display: none;
 }
 
-.children__9293f > .akaBadge__27cd4,
-.children__9293f > .nicknames__12efb,
-.children__9293f > .divider__9293f {
+._9293f6b2fc12398a-children > .akaBadge__27cd4,
+._9293f6b2fc12398a-children > .nicknames__12efb,
+._9293f6b2fc12398a-children > .divider__9293f {
     display: none;
 }
 
 .bd-switch-symbol,
-.slider__87bf1 > svg {
+._3f21e80f8677ec40-slider > svg {
     display: none;
 }
 
@@ -75,7 +75,7 @@ button[aria-label="Start An Activity"] {
 }
 
 /* 'В эфире' на демках */
-.indicators__2f4f7 {
+._2f4f7eb58b61c328-indicators {
     display: none;
 }
 
@@ -90,6 +90,7 @@ button[aria-label="Start An Activity"] {
 }
 
 /* На демке в полном экране справа снизу звук и доп настройки */
-.overlayButtonContainer__2f4f7 {
+._2f4f7eb58b61c328-overlayButtonContainer {
     display: none;
 }
+
