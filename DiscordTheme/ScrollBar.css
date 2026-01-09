@@ -18,11 +18,12 @@
     background-color: rgb(157, 157, 160) !important;
 }
 
-.auto__99f8c::-webkit-scrollbar-track {
+._99f8cc7ad4790ce9-auto::-webkit-scrollbar-track {
     background-color: #151b21;
 }
 
-.auto__99f8c::-webkit-scrollbar-thumb,
-.auto__99f8c::-webkit-scrollbar-track {
+._99f8cc7ad4790ce9-auto::-webkit-scrollbar-thumb,
+._99f8cc7ad4790ce9-auto::-webkit-scrollbar-track {
     border: 4px;
 }
+
