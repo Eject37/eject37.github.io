@@ -14,7 +14,7 @@
     transition: ease-in-out 0.3s;
 }
 
-.searchBar__97492 {
+.c322aadb96ff59c9-searchBar {
     /*Полностью скрываем строку поиска*/
     width: 21px;
     height: 24px;
@@ -23,24 +23,25 @@
     transition: ease-in-out 0.3s !important;
 }
 
-.searchBar__97492:hover .iconContainer_fea832,
-.searchBar__97492:hover .icon_fea832,
-.focused__97492 .icon_fea832,
-.focused__97492 .iconContainer_fea832 {
+.c322aadb96ff59c9-searchBar:hover .iconContainer_fea832,
+.c322aadb96ff59c9-searchBar:hover .icon_fea832,
+.c322aadb96ff59c9-focused .icon_fea832,
+.c322aadb96ff59c9-focused .iconContainer_fea832 {
     /*Скрываем иконку поиска при наведении*/
     opacity: 0;
     width: 0;
     height: 0;
 }
-.searchBar__97492:hover,
-.focused__97492 .searchBar__97492,
-.open__97492 .searchBar__97492 {
+.c322aadb96ff59c9-searchBar:hover,
+.c322aadb96ff59c9-focused .c322aadb96ff59c9-searchBar,
+.c322aadb96ff59c9-open .c322aadb96ff59c9-searchBar {
     /*Показываем строку поиска при наведении на иконку*/
     width: 175px;
     background: var(--background-tertiary);
 }
 
 /* Иконка Скрыть список участников (сверху справа), задаем цвет как будто она не открыта*/
-.selected__9293f .icon__9293f {
+._9293f6b2fc12398a-selected ._9293f6b2fc12398a-icon {
     color: var(--interactive-normal) !important;
 }
+
