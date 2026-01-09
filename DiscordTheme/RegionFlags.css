@@ -5,19 +5,19 @@
 	Discord: @eject37
 */
 
-.regionSelectName__5621e {
+.regionSelectName__8de63 {
     width: 120px;
 }
-.quickSelectPopoutOption_ebaca5 {
+.ebaca56eb4bb23eb-quickSelectPopoutOption {
     padding-right: 2px;
 }
-.quickSelectPopoutOption_ebaca5:focus {
+.ebaca56eb4bb23eb-quickSelectPopoutOption:focus {
     background-color: transparent;
 }
-.quickSelectPopoutOption_ebaca5.selected {
+.ebaca56eb4bb23eb-quickSelectPopoutOption.selected {
     background-color: rgba(94, 97, 104, 0.335) !important;
 }
-.quickSelectPopoutOption_ebaca5::before {
+.ebaca56eb4bb23eb-quickSelectPopoutOption::before {
     display: block;
     height: 0;
     width: 0;
@@ -70,3 +70,4 @@
 [data-list-item-id*="us-"]::before {
     content: url(https://cdn-icons-png.flaticon.com/512/330/330459.png);
 }
+
