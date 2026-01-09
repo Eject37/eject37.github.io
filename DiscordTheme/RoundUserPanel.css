@@ -35,3 +35,4 @@ html.custom-theme-background [class^="sidebar_"] {
 html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
     background: var(--bg-overlay-1);
 }
+
