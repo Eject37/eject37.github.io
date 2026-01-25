@@ -13,7 +13,7 @@ button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Почта"],
 [role="button"][aria-label="Помощь"],
 div:has(> button[aria-label="Открыть звуковую панель"]),
-div:not(.e131a99484292a19-actionButtons):has(> span[class*="disabledButtonWrapper_"]),
+div:not(.actionButtons_e131a9):has(> span[class*="disabledButtonWrapper_"]),
 span[class*="_201d5e8a3c09670a-disabledButtonWrapper"],
 [role="button"][aria-label="Начать видеозвонок"],
 button[aria-label="Отправить подарок"],
@@ -35,31 +35,31 @@ button[aria-label="Start An Activity"] {
 }
 
 /* hide nitro and shop tabs in DMs */
-._972a0d22c8afa7f0-channel ._972a0d22c8afa7f0-linkButton > ._972a0d22c8afa7f0-link[href="/shop"],
-._972a0d22c8afa7f0-channel ._972a0d22c8afa7f0-linkButton > ._972a0d22c8afa7f0-link[href="/store"] {
+.channel__972a0 .linkButton__972a0 > .link__972a0[href="/shop"],
+.channel__972a0 .linkButton__972a0 > .link__972a0[href="/store"] {
     display: none;
 }
 
-._1405b3b8e8eb5fd0-buttonContainer {
+.buttonContainer__1405b {
     display: none;
 }
 
-._1405b3b8e8eb5fd0-controlButton._666fac20ee9dfe96-fauxDisabled.contextMenuContainer_f1ceac {
+.controlButton__1405b.fauxDisabled__666fa.contextMenuContainer_f1ceac {
     display: none;
 }
 
-.ef3116c2da186559-scroller > ._650eb104245d257b-listItem > ._918165dab2b1e10b-listItemWrapper {
+.scroller_ef3116 > .listItem__650eb > .listItemWrapper__91816 {
     display: none;
 }
 
-._9293f6b2fc12398a-children > .akaBadge__27cd4,
-._9293f6b2fc12398a-children > .nicknames__12efb,
-._9293f6b2fc12398a-children > .divider__9293f {
+.children__9293f > .akaBadge__27cd4,
+.children__9293f > .nicknames__12efb,
+.children__9293f > .divider__9293f {
     display: none;
 }
 
 .bd-switch-symbol,
-._3f21e80f8677ec40-slider > svg {
+.slider__3f21e > svg {
     display: none;
 }
 
@@ -75,7 +75,7 @@ button[aria-label="Start An Activity"] {
 }
 
 /* 'В эфире' на демках */
-._2f4f7eb58b61c328-indicators {
+.indicators__2f4f7 {
     display: none;
 }
 
@@ -90,8 +90,7 @@ button[aria-label="Start An Activity"] {
 }
 
 /* На демке в полном экране справа снизу звук и доп настройки */
-._2f4f7eb58b61c328-overlayButtonContainer {
+.overlayButtonContainer__2f4f7 {
     display: none;
 }
-
 
