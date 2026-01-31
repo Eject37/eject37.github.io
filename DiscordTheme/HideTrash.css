@@ -6,7 +6,7 @@
 */
 
 button[aria-label="Начать активность"],
-button[aria-label="Камера недоступна"],
+.attachedCaretButtonContainer_f1ceac:has(button[aria-label="Камера недоступна"]),
 button[aria-label="Шумоподавление с помощью Krisp"],
 [role="button"][aria-label="Показать профиль пользователя (недоступно)"],
 [role="button"][aria-label="Показать профиль пользователя"],
@@ -30,8 +30,12 @@ div:has(> button[aria-label="Відкрити звукову панель"]),
 button[aria-label="Надіслати подарунок"],
 div:has(> button[aria-label="Відкрити програму вибору GIF"]),
 div:has(> button[aria-label="Відкрити програму вибору стікерів"]),
-button[aria-label="Start An Activity"] {
-    display: none;
+button[aria-label="Start An Activity"],
+.button__74017[aria-label="Отправить подарок"],
+.app-launcher-entrypoint,
+.expression-picker-chat-input-button:has(.button__74017[aria-label="Открыть меню выбора стикеров"]),
+.expression-picker-chat-input-button:has(.button__74017[aria-label="Открыть меню GIF"]) {
+    display: none !important;
 }
 
 /* hide nitro and shop tabs in DMs */
@@ -94,3 +98,7 @@ button[aria-label="Start An Activity"] {
     display: none;
 }
 
+/* Чистим титлбар от мусора */
+.winButtonsWithDivider_c38106:before, .backForwardButtons__63abb {
+	display: none !important;
+}
