@@ -41,21 +41,3 @@ document.querySelector('#author > a').addEventListener('mouseenter', () => gsap.
 	background: 'linear-gradient(137deg, rgb(20 22 24), rgb(25 38 46), rgb(20 22 24)) center center no-repeat fixed',
 	duration: 0.5
 }));
-
-document.querySelectorAll('.payment_number:not(.link, .usdt)').forEach(el => {
-	el.onclick = async () => {
-		let cardNumber = el.textContent;
-
-		el.style.pointerEvents = 'none';
-		el.style.width = el.offsetWidth + 'px';
-
-		navigator.clipboard.writeText(cardNumber.trim().replaceAll(' ', ''));
-		el.classList.add('copy-clicked');
-		el.textContent = 'Скопировано';
-		await new Promise(resolve => setTimeout(resolve, 500));
-		el.classList.remove('copy-clicked');
-		el.textContent = cardNumber;
-		el.style.width = '';
-		el.style.pointerEvents = 'auto';
-	}
-});
